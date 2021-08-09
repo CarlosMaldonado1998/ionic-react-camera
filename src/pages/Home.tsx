@@ -9,15 +9,12 @@ const Home: React.FC = () => {
 
   return (
     <IonPage>
-        <IonHeader collapse="condense" >
+        <IonHeader>
             <IonToolbar color={"primary"}>
-                <IonTitle size="small">Fotos</IonTitle>
+                <IonTitle>Galeria</IonTitle>
             </IonToolbar>
         </IonHeader>
-      <IonContent>
-          <IonHeader collapse="condense" >
-                  <IonTitle size="small">Fotos</IonTitle>
-          </IonHeader>
+        <IonContent>
         <IonGrid>
           <IonRow>
             {photos.map((photo, index) => (
