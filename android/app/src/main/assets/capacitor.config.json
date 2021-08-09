@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "react-camera",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
