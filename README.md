@@ -25,10 +25,12 @@ En el listado de fotos de la aplicación podremos dar clic sobre cada una de ell
 
 Para generar el archivo apk podremos ejecutar los siguientes comandos:
 
+  - npx cap add android
   - npx cap run android
 
-El cual nos va generar el siguiente archivo. 
+El cual nos va generar el siguiente archivo, y luego lo va ejecutar en el emulador. 
 
+https://github.com/CarlosMaldonado1998/ionic-react-camera/blob/master/apk/app-debug.apk
 
 La aplicación corriendo en el emulador de Android Studio. 
 
